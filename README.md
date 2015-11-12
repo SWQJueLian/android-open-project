@@ -1,14 +1,12 @@
 Android 开源项目分类汇总
 ====================
-
-####<a href="http://a.codekk.com" target="_blank">Android 开源项目源码解析(Volley、UIL、Dagger、EventBus、xUtils 等分析)</a>  
-####<a href="http://j.codekk.com" target="_blank">Android 职位内部推荐(阿里、百度、美团、点评、魅族等)</a>  
-
-`codeKK`专注于开源项目源码解析、开源项目分享、Android 职位推荐。  
-> 微信公众号：codekk，二维码如下：  
+> 我们的微信公众号：codekk。二维码如下：  
+ 专注于 Android 开源分享、源码解析、框架设计、Android 内推。  
  ![img](https://raw.githubusercontent.com/aosp-exchange-group/about/master/weixin-qrcode.jpg)  
- 我们的网站：[www.codekk.com](http://codekk.com)  
- 我们的微博：[code-kk](http://weibo.com/codek2)  
+ 我们的网站：[www.codekk.com](http://a.codekk.com)  
+
+####<a href="http://a.codekk.com" target="_blank">Android 开源项目源码解析(Volley、UIL、Dagger、EventBus、插件化库等分析)</a>  
+####<a href="http://j.codekk.com" target="_blank">Android 职位内部推荐(阿里、腾讯、百度、京东、滴滴、美团、58、华为、网易、魅族等)</a>  
 
 欢迎大家推荐好的 Android 开源项目，可直接[Commit](https://github.com/Trinea/android-open-project/wiki "请遵守<内容添加及编辑规范>")，欢迎`Star`、`Fork` :)  
 > **关于我，欢迎关注**  
@@ -64,7 +62,14 @@ APP 示例：Wordpress Android
 支持定义 ListView 左右滑动事件，支持左右滑动位移，支持定义动画时间  
 项目地址：https://github.com/47deg/android-swipelistview  
 Demo 地址：https://play.google.com/store/apps/details?id=com.fortysevendeg.android.swipelistview  
-APP 示例：微信  
+APP 示例：微信 
+
+1. SlideAndDragListView  
+支持ListView的Item的拖动排序、左右滑动事件，可自定义左右滑动显示文字、图标、位移，同时支持onItemClick、onItemLongClick等监听器，提供丰富的回调接口。  
+项目地址：https://github.com/yydcdut/SlideAndDragListView  
+Demo 地址：https://github.com/yydcdut/SlideAndDragListView/blob/master/apk/sdlv.apk?raw=true  
+APP 示例：Android 手机QQ 5.0  
+效果图：![Renderings](https://raw.githubusercontent.com/yydcdut/SlideAndDragListView/master/gif/v1.1.gif)  
 
 1. Android-SwipeToDismiss  
 滑动 Item 消失 ListView，支持 3.0 以下版本见：https://github.com/JakeWharton/SwipeToDismissNOA  
@@ -725,10 +730,10 @@ A 2d metaball loading
 效果图：![Renderings](https://github.com/dodola/MetaballLoading/blob/master/metaball2.gif) 
 
 1. SectorProgressView  
-一个圆形的进度显示控件，用圆中扇形的角度大小来表示进度信息
-项目地址：https://github.com/timqi/SectorProgressView
-Demo：[apk download](https://github.com/timqi/SectorProgressView/raw/master/art/SectorProgressView-V1.0-Example.apk) 
-效果图：![SectorProgressView](https://github.com/timqi/SectorProgressView/blob/master/art/sample.gif) 
+一个圆形或环形的进度显示控件，用圆中扇形的角度大小来表示进度信息<br/>
+项目地址：https://github.com/timqi/SectorProgressView<br/>
+Demo：[apk download](https://github.com/timqi/SectorProgressView/raw/master/art/example.apk) <br/>
+效果图：<br/>![ColorfulRingProgressView](https://github.com/timqi/SectorProgressView/raw/master/art/colorfulringprogressview.demo.gif) ![SectorProgressView](https://github.com/timqi/SectorProgressView/raw/master/art/sectorprogressview.demo.gif)
 
 #### 八、TextView
 包括 TextView 及所有继承自 TextView 控件，如 EditText、Button、RadioButton  
@@ -846,6 +851,16 @@ Demo 项目：https://github.com/siriscac/RippleView/tree/master/RippleViewExamp
 项目地址：https://github.com/traex/RippleEffect  
 Demo 项目：https://github.com/traex/RippleEffect/tree/master/sample  
 效果图：![Renderings](https://raw.githubusercontent.com/traex/RippleEffect/master/header.png)  
+
+1. RippleCompat
+使用易于移植的方式为UI控件实现波纹效应，可以适配控件原背景及Palette支持。api简单，可自定义效果，兼容至Android API 7+。
+项目地址：https://github.com/desmond1121/RippleCompat
+Demo 项目：https://github.com/desmond1121/RippleCompat/tree/master/app
+效果图：
+![Renderings](https://raw.githubusercontent.com/desmond1121/RippleCompat/master/demo/Demo.gif)
+
+palette效果：
+![Renderings](https://raw.githubusercontent.com/desmond1121/RippleCompat/master/demo/Demo1.gif)
 
 1. Android Floating Label Widgets  
 包含一系列控件，这些控件特点是：有默认值，当值不为空时默认值浮动到上面变为提示  
@@ -974,6 +989,11 @@ Demo 地址：https://play.google.com/store/apps/details?id=com.doomonafireball.
 仿 iOS 的 PickerView 控件，有时间选择和选项选择并支持一二三级联动效果，TimePopupWindow 时间选择器，支持年月日时分，年月日，时分等格式；OptionsPopupWindow 选项选择器，支持一，二，三级选项选择，并且可以设置是否联动  
 项目地址：https://github.com/saiwu-bigkoo/Android-PickerView  
 效果图：![Renderings](https://github.com/saiwu-bigkoo/PickerView/blob/master/preview/pickerdemo.gif)  
+
+1. CountdownView  
+Android 倒计时控件，使用Canvas绘制，支持多种样式  
+项目地址：https://github.com/iwgang/CountdownView  
+效果图：![Renderings](https://raw.githubusercontent.com/iwgang/CountdownView/master/screenshot/screenshot.gif)
 
 #### 十一、TipView
 包括 Toast、角标、UndoBar 等提示性控件  
@@ -1221,7 +1241,7 @@ APP 示例：QQ名片圈圈效果
 1. AndroidLoadingAnimation  
 多种android加载动画  
 项目地址：https://github.com/guohuanwen/AndroidLoadingAnimation  
-效果图：![TaiJIView](https://github.com/guohuanwen/AndroidLoadingAnimation/blob/master/screenshots/taiji0.gif)  
+效果图：![TaiJIView](https://github.com/guohuanwen/AndroidLoadingAnimation/blob/master/screenshots/taiji1.gif)  
 
 
 1. android-lockpattern  
@@ -1573,7 +1593,7 @@ http://www.trinea.cn/android/android-imagecache/
 (5)支持不同类型网络处理  
 (6)可根据系统配置初始化缓存等  
 
-b. HttpCache Http 缓存  
+1. HttpCache Http 缓存  
 文档介绍：http://www.trinea.cn/android/android-http-cache  
 特点是：(1) 根据 cache-control、expires 缓存 http 请求  
 (2) 支持同步、异步 Http 请求  
@@ -1583,7 +1603,7 @@ b. HttpCache Http 缓存
 (2) 公共 View(下拉及底部加载更多 ListView、底部加载更多 ScrollView、滑动一页 Gallery)  
 (3) Android 常用工具类(网络、下载、Android 资源操作、shell、文件、Json、随机数、Collection 等等)  
 
-c. DropDownListView 下拉刷新及滑动到底部加载更多 ListView  
+1. DropDownListView 下拉刷新及滑动到底部加载更多 ListView  
 文档介绍：http://www.trinea.cn/android/dropdown-to-refresh-and-bottom-load-more-listview/  
 
 1. shipfaster  
@@ -1628,6 +1648,11 @@ Custom View 神器。通过简单的注解帮助你大大减少 Custom View 中�
 1. device-year-class  
 A library that analyzes an Android device's specifications and calculates which year the device would be considered "high end”.(facebook 开发的检测手机主流配置工具)  
 项目地址：https://github.com/facebook/device-year-class  
+
+1. RxAndroid   
+对RxJava在Android上的扩展，使得Android上也很容易实现reactive components，简化线程操作，从而写出很漂亮的代码。   
+项目地址：https://github.com/ReactiveX/RxAndroid   
+文档介绍：[给Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)   
 
 #### 六、Android 高版本向低版本兼容
 1. Nine Old Androids  
